@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <div className="app-content">
-        <BaseButton />
-        <BaseButton />
+        <BaseButton text="venha para zekas"/>
+        <BaseButton text="ele vai te ajudar"/>
       </div>
       <Footer />
     </div>
