@@ -1,9 +1,11 @@
+import "./Header.scss";
 export default function Header() {
   return (
-    <header>
-      <div>
+    <header className="header-container">
+      <div className="header-wrapper">
         <img src="src/assets/logo.png" />
-        <h2>Grupo Candelária de Narcóticos Anônimos</h2>
+        <h2>GRUPO CANDELÁRIA</h2>
+        <div className="separator"/>
       </div>
     </header>
   );
